@@ -9,8 +9,8 @@ To start the device in AP mode and setup the WiFi:
 
 5. Remove the D1 (GPIO5) connection to GND.
 
-6. Connect the device up to a serial terminal, and reboot it.
-7. The terminal should print a success message once it connects to your home network and it will then display it's own IP address on the network.
+6. Connect the device to a serial terminal and then reboot it.
+7. The terminal should print a success message once it connects to your home network. It will then display it's own IP address on the network. This IP address is important to take note of. (You can optionally set this IP in your router's DCHP reservation table if you want your ESP8266 to always have the same IP.)
 
 8. You can now access the ESP8266 and control it's GPIO pins by opening that IP address in a browser window.
 
