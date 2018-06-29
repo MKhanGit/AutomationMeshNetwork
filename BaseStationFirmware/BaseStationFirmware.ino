@@ -1,4 +1,4 @@
-
+5
 /* Create a web server on either an existing interface or on an AP. */
 /* ssid and password are stored in EEPROM addresses 0x20 (32) and 0x40 (64) respectively */
 
@@ -16,8 +16,8 @@ ESP8266WebServer server(80);
 IPAddress         apIP(10, 10, 10, 1);    // Private network for server
 
 /* Set these to your desired credentials. */
-const char *APssid = "Node Base Station";
-const char *APpsswd = "YOUR PASSWORD";
+const char *APssid = "AutoMeshNetwork";
+const char *APpsswd = "YourPsswdHere";
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
