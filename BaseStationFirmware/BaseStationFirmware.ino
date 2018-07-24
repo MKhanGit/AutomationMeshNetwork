@@ -24,7 +24,7 @@ void setup() {
   pinMode(D1, INPUT_PULLUP);
   pinMode(D2, INPUT_PULLUP);
   pinMode(D3, INPUT_PULLUP);
-
+  pinMode(D4, INPUT_PULLUP);
   digitalWrite(LED_BUILTIN, LOW);
   delay(1000);
   Serial.begin(115200);
@@ -98,6 +98,12 @@ void loop() {
   if (!digitalRead(D3)) {
     digitalWrite(LED_BUILTIN, LOW);
     Serial.println("System Turned OFF by button");
+    delay(500);
+  }
+
+   if (!digitalRead(D4)) {
+    digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));
+    Serial.println("System Toggled by button");
     delay(500);
   }
 server.handleClient();
