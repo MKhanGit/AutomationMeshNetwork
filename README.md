@@ -9,7 +9,7 @@ The base station firmware is designed to run on the ESP8266 module,  utilizing t
 | *"NodeMCU", a popular dev board for implementing the ESP8266.* |
 
 
-# Base Station Firmware
+# Initial Setup
 After you load this firmware for the first time, you must start the device in AP mode in order to save the WiFi credentials for your home network in the EEPROM of the ESP8266. This way the device can automatically connect to your home network every time it powers on.
 
 To start the device in AP mode and setup the WiFi:
