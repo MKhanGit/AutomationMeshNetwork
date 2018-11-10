@@ -1,4 +1,4 @@
-5
+/*Author: Mohsin Khan */
 /* Create a web server on either an existing interface or on an AP. */
 /* ssid and password are stored in EEPROM addresses 0x20 (32) and 0x40 (64) respectively */
 
